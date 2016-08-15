@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+#gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -26,6 +26,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'mongo', '~> 2.2'
 #mtg api
 gem 'mtg_sdk'
+#pokemon tcg api
+gem 'pokemon_tcg_sdk'
+#mongo
+#gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
+gem 'bson'
+gem 'mongoid'
+gem 'bson_ext'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

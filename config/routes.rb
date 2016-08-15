@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'list/new' => 'list#new'
+
+  get 'list/create' => 'list#create'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
